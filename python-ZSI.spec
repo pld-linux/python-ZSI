@@ -1,5 +1,5 @@
 %define	_rc	rc1
-Summary:	The Zolera Soap Infrastructure
+Summary:	The Zolera SOAP Infrastructure
 Name:		python-ZSI
 Version:	2.0
 Release:	0.%{_rc}.1
