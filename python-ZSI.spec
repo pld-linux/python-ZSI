@@ -1,5 +1,6 @@
 %define	_rc	rc1
 Summary:	The Zolera SOAP Infrastructure
+Summary(pl):	Infrastruktura Zolera SOAP
 Name:		python-ZSI
 Version:	2.0
 Release:	0.%{_rc}.1
@@ -24,6 +25,16 @@ also be used to build applications using SOAP Messages with
 Attachments. ZSI is ``transport neutral'', and provides only a simple
 I/O and dispatch framework; a more complete solution is the
 responsibility of the application using ZSI.
+
+%description -l pl
+ZSI, czyli Zolera SOAP Infrastructure, to pakiet Pythona zawieraj±cy
+implementacjê komunikacji SOAP zgodn± ze specyfikacj± SOAP 1.1. W
+szczególno¶ci ZSI przetwarza i generuje komunikaty SOAP oraz dokonuje
+konwersji miêdzy natywnymi typami danych Pythona a sk³adni± SOAP. Mo¿e
+byæ tak¿e u¿ywane do tworzenia aplikacji przy u¿yciu komunikatów SOAP
+z za³±cznikami. ZSI jest niezale¿ne od transportu i udostêpnia jedynie
+prostego szkieletu we/wy i wysy³ania; za pe³niejsze rozwi±zanie
+odpowiada aplikacja korzystaj±ca z ZSI.
 
 %prep
 %setup -q -n ZSI-%{version}-%{_rc}
