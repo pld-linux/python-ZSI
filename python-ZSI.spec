@@ -41,13 +41,13 @@ odpowiada aplikacja korzystająca z ZSI.
 %setup -q -n ZSI-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitescriptdir}
 
-python setup.py install \
+%py_install \
 	--single-version-externally-managed \
 	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
