@@ -2,7 +2,7 @@ Summary:	The Zolera SOAP Infrastructure
 Summary(pl.UTF-8):	Infrastruktura Zolera SOAP
 Name:		python-ZSI
 Version:	2.0
-Release:	4
+Release:	5
 License:	MIT/X + LBNL BSD-style + Zope Public License
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/pywebsvcs/ZSI-%{version}.tar.gz
