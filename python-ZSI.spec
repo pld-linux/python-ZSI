@@ -8,6 +8,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/pywebsvcs/ZSI-%{version}.tar.gz
 # Source0-md5:	bb706337cafe9e2201b06b1bce71ca0f
 URL:		http://pywebsvcs.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python
 BuildRequires:	rpm-pythonprov
 Requires:	python-PyXML >= 0.8.4-6
